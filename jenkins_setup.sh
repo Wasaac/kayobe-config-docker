@@ -36,7 +36,7 @@ sudo docker run --name=nginx_proxy \
      jwilder/nginx-proxy:latest
 
 sudo mkdir -p /var/jenkins_home/jenkins_config
-sudo cp -r jenkins_config/ /var/jenkins_home/jenkins_config/
+sudo cp -r jenkins_config/ /var/jenkins_home/
 
 echo "jenkins container id:"
 sudo docker run --name=jenkins \
